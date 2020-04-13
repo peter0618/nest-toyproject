@@ -4,6 +4,7 @@ import { Injectable } from '@nestjs/common';
 export class CoreService {
 
   async getMoney(balance: number) {
+    console.log("commit test!!");
     return balance;
   }
 }
